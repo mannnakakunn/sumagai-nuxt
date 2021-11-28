@@ -30,8 +30,14 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [
-  ],
+  buildModules: ["nuxt-microcms-module"],
+  microcms: {
+    options: {
+      serviceDomain: "https://keiryosoken.microcms.io/api/v1/",
+      apiKey: "b5c983ce3cb64eaebec51f2ac50a37497f42",
+    },
+    mode: process.env.NODE_ENV === "production" ? "server" : "all",
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
