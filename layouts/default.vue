@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>携帯料金シミュレータ | 携帯料金総研</title>
+    <title>携帯料金シミュレータAA | 携帯料金総研</title>
     <!-- もしくはCDN経由で読み込み -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@5.8.55/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">  
@@ -40,7 +40,7 @@
     <div class="hero-head">
 
 <!-- b-navbarを適用 -->
-      <template>
+      <template>        
         <div class="wrapper-class px-6 py-2" style="border-bottom:solid 1px grey">
           <b-navbar class="py-1 px-5 my-0 is-size-4">
               <template #brand>
@@ -73,7 +73,7 @@
                       </strong>
                     </div>
                   </b-tooltip>
-                </b-navbar-item>
+                </b-navbar-item>``
               </router-link>
               </template>
 
