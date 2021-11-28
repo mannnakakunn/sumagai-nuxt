@@ -21,7 +21,7 @@
       </div> 
       
 
-        <v-col v-for="article in articles" :key="article.id">
+        <!-- <v-col v-for="article in articles" :key="article.id">
         <v-card class="mx-auecto" width="300" height="330">
           <v-img
             class="white--text align-end"
@@ -39,7 +39,7 @@
             <v-btn color="orange" text>More</v-btn>
           </v-card-actions>
         </v-card>
-      </v-col>
+      </v-col> -->
           詳細画面で記事を取得できるように、記事のidをパラメーターとして渡す -->
           <!-- <router-link :to="{ name: 'article-detail', params: { id: article.id } }">
             <v-btn color="orange" text>More</v-btn>
